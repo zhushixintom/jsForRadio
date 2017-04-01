@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>j</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+      label{
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body ontouchstart>
+    <label for="d1">
+      <input type="radio" name="d" id="d1">
+      <span>我是radio1</span>
+    </label>
+    <label for="d2">
+      <input type="radio" name="d" id="d2">
+      <span>我是radio1</span>
+    </label>
+    <label for="d3">
+      <input type="radio" name="d" id="d3">
+      <span>我是radio1</span>
+    </label>
+    <!--  -->
+    <script src="js/lib/jquery-2.1.4.js"></script>
+    <script src="js/jsForRadio.js"></script>
+    <script>
+      radioGroup("d");
+    </script>
+  </body>
+</html>

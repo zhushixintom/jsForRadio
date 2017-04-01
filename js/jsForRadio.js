@@ -1,0 +1,1 @@
+function radioGroup(t){$("[name='"+t+"']").on("click",function(){var e=$(this),h=$(this).attr("thisChecked");"yes"===h?e.removeAttr("checked").attr({thisChecked:"no"}):(e.attr({thisChecked:"yes"}),$("[name='"+t+"']").not(e).attr({thisChecked:"no"}))})}

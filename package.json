@@ -1,0 +1,32 @@
+{
+  "name": "jsForRadio",
+  "version": "1.0.0",
+  "description": "sometimes you want some options like, you can choose one or none options, but radio and checkbox both couldn't satisfied, so I made this simple js snippet",
+  "keywords": [
+    "radio",
+    "radio如何去除选择"
+  ],
+  "scripts": {},
+  "author": "Tom Zhu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhushixintom/jsForRadio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhushixintom/jsForRadio/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ejs": "^2.1.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-header": "^1.7.1",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.3"
+  }
+}
